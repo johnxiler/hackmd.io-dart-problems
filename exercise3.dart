@@ -6,10 +6,10 @@ and write a program that prints out all the elements of the list that are less t
  */
 
 void main(){
-    List<int> a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89];
-    for(int i = 0; i < a.length; i++){
-        if(a[i] < 5){
-            print(a[i]);
+    List<int> numeroListo = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89];
+    for(int baseNumber = 0; baseNumber < numeroListo.length; baseNumber++){
+        if(numeroListo[i] < 5){
+            print(numeroListo[i]);
         }
     }
 }
