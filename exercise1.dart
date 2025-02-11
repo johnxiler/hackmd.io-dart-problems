@@ -7,9 +7,9 @@ import 'dart:io';
 
 main() {
     stdout.write("What's your name? ");
-    String name = stdin.readLineSync().toString();
+    String whatsName = stdin.readLineSync().toString();
     stdout.write("Enter your age: ");
-    int age = int.parse(stdin.readLineSync().toString());
-    int hundred = 100;
-    print("Hello $name, you will be 100 years old in ${hundred - age} years.");
+    int whatsAge = int.parse(stdin.readLineSync().toString());
+    int determinedYear = 100;
+    print("Hello $whatsName, you will be 100 years old in ${determinedYear - whatsAge} years.");
 }
